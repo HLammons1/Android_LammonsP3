@@ -1,7 +1,7 @@
 /*
 Hayden Lammons
 HLammons1@cnm.edu
-LammonsP3 Earthquake Viewer
+LammonsP4 Earthquake Viewer
  */
 
 package com.cis2237.lammonsp3;
@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        Toast.makeText(this, "LammonsP3 Earthquake Viewer", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "LammonsP4 Earthquake Viewer", Toast.LENGTH_SHORT).show();
 
     }
 }
