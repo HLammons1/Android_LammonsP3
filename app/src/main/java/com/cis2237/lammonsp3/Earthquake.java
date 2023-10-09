@@ -62,7 +62,10 @@ public class Earthquake {
 
     @Override
     public boolean equals(@Nullable Object obj) {
-        Earthquake eq = (Earthquake) obj;
-        return Objects.equals(id, eq.id);
+        if (obj instanceof Earthquake) {
+            Earthquake eq = (Earthquake) obj;
+            return Objects.equals(id, eq.id);
+        }
+        else return false;
     }
 }
